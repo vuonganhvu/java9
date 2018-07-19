@@ -1,3 +1,4 @@
 module com.higgsup.java.test {
-    requires com.higgsup.java.module;
+    requires transitive com.higgsup.java.module;
+    requires guava;
 }

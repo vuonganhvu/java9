@@ -11,6 +11,7 @@
     <modules>
         <module>module-demo</module>
         <module>module-test</module>
+        <module>module-unname</module>
     </modules>
     <name>java-9</name>
     <url>http://higgsup.com</url>
