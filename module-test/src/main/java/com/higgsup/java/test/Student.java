@@ -1,4 +1,4 @@
-package com.higgsup.java;
+package com.higgsup.java.test;
 
 public class Student {
     private String name;

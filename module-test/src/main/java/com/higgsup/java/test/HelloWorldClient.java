@@ -1,7 +1,7 @@
-package com.higgsup.java;
+package com.higgsup.java.test;
 
 
-import hello.HelloWorld;
+import com.higgsup.java.module.HelloWorld;
 
 public class HelloWorldClient {
 
