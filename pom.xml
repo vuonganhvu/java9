@@ -9,9 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>module-demo</module>
-        <module>module-test</module>
-        <module>module-unname</module>
+        <module>reactive-streams</module>
+        <module>module-system</module>
     </modules>
     <name>java-9</name>
     <url>http://higgsup.com</url>

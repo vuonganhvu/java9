@@ -90,3 +90,10 @@ hs_err_pid*
 
 # IntelliJ project files
 gen
+reactive-streams/target
+module-system/module-test/target
+module-system/module-demo/target
+module-system/module-unname/target
+module-system/consumer/target
+module-system/provider/target
+module-system/serviceInterface/target
