@@ -1,5 +1,6 @@
 package com.higgsup.java;
 
+import java.io.FileInputStream;
 import java.util.Optional;
 
 /**
@@ -15,5 +16,15 @@ public class App {
         Optional<Integer> optional1 = Optional.empty();
         Optional<Integer> integerOptional = optional1.or(() -> Optional.of(0));
         integerOptional.ifPresent(System.out::println);
+
+        try (FileInputStream input = new FileInputStream("file.txt")) {
+
+            int data = input.read();
+            while (data != -1) {
+                System.out.print((char) data);
+                data = input.read();
+            }
+        } catch (Exception ex) {
+        }
     }
 }
