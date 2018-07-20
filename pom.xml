@@ -11,6 +11,7 @@
     <modules>
         <module>reactive-streams</module>
         <module>module-system</module>
+        <module>stream-improvement</module>
     </modules>
     <name>java-9</name>
     <url>http://higgsup.com</url>
